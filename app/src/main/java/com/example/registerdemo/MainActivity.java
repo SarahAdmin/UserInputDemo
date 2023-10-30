@@ -22,4 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
    }
 
+   public void Register (View view) {
+        Intent LogIntentTwo = new Intent(this, RegisterAUser.class);
+        startActivity(LogIntentTwo);
+   }
+
+
 }
